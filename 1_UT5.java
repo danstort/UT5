@@ -34,4 +34,29 @@ public class Ejercicio1 {
 
     }
 
+
+
+    class Coche {
+
+    private int velocidad;
+
+    Coche() {
+
+        velocidad = 0;
+    }
+
+    int getVelocidad() {
+        return this.velocidad;
+    }
+
+    void acelera(int mas) {
+        this.velocidad = this.velocidad + mas;
+    }
+
+    void frena(int menos) {
+        this.velocidad = this.velocidad + menos;
+    }
+
+}
+
 }
