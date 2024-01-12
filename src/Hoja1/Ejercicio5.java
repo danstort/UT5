@@ -10,15 +10,14 @@ import java.util.Scanner;
  *
  * @author danie
  */
-public class Ejercicio5 implements Cloneable{
-    
+public class Ejercicio5 {
+
     public static void main(String[] args) {
-        
+
         Scanner tec = new Scanner(System.in);
         double a = tec.nextDouble();
         Temperatura temp = new Temperatura();
-        
-        
+
         System.out.println(temp.celsiusToFarenheit(a));
     }
 }

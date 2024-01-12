@@ -8,7 +8,7 @@ package Hoja1;
  *
  * @author danielsotoortiz
  */
-public class Temperatura {
+class Temperatura {
 
     double celsiusToFarenheit(double C) {
 
