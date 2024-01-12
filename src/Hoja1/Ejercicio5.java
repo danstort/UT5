@@ -4,17 +4,21 @@
  */
 package Hoja1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author danie
  */
-public class Ejercicio5 {
+public class Ejercicio5 implements Cloneable{
     
     public static void main(String[] args) {
-        // TODO code application logic here
-
-        //Esto es una prueba
         
-        System.out.println("Hola");
+        Scanner tec = new Scanner(System.in);
+        double a = tec.nextDouble();
+        Temperatura temp = new Temperatura();
+        
+        
+        System.out.println(temp.celsiusToFarenheit(a));
     }
 }
