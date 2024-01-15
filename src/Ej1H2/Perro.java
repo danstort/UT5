@@ -12,12 +12,26 @@ public class Perro {
 
     char color;
     int edad;
+    String cS;
 
     public Perro() {
     }
 
     public void setColor(char color) {
         this.color = color;
+        switch (color) {
+            case 'b' | 'B':
+                cS = "Blanco";
+                break;
+
+            case 'n' | 'N':
+                cS = "Negro";
+                break;
+
+            default:
+                cS = "Color no establecido";
+                ;
+        }
     }
 
     public void setEdad(int edad) {
@@ -31,5 +45,13 @@ public class Perro {
     public int getEdad() {
         return edad;
     }
+
+    @Override
+    public String toString() {
+        return "Perro{color="+cS+ ", edad="+edad+"}";
+
+    }
+
+    
 
 }

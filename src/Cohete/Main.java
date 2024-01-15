@@ -2,9 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package Ej1H2;
-
-import java.util.Scanner;
+package Cohete;
 
 /**
  *
@@ -12,16 +10,18 @@ import java.util.Scanner;
  */
 public class Main {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
         
-       Scanner tec = new Scanner (System.in);
-       Perro p = new Perro();
-       p.setColor(tec.nextLine().charAt(0));
-       p.setEdad(tec.nextInt());
-       
-       
-       
+        Cohete c1 = new Cohete();
+        Cohete c2 = (Cohete)c1.clone();
+        Cohete c3 = (Cohete)c1.clone();
+        Cohete c4 = (Cohete)c1.clone();
         
+        System.out.println(c1.getNumCohetes());
+        System.out.println(c3.getNumCohetes());
     }
     
 }
