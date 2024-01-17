@@ -19,7 +19,7 @@ public class Main {
        p.setColor(tec.nextLine().charAt(0));
        p.setEdad(tec.nextInt());
        
-       
+        System.out.print(p.toString());
        
         
     }

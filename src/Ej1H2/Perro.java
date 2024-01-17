@@ -8,7 +8,7 @@ package Ej1H2;
  *
  * @author danielsotoortiz
  */
-public class Perro {
+class Perro {
 
     char color;
     int edad;
