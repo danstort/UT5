@@ -28,25 +28,25 @@ public class Main {
             switch (op) {
                 case '+':
 
-                    System.out.println("Resultado " + c1.suma());
+                    System.out.printf("Resultado %.2f\n", c1.suma());
 
                     break;
 
                 case '-':
 
-                    System.out.println("Resultado " + c1.resta());
+                    System.out.printf("Resultado %.2f\n", c1.resta());
 
                     break;
 
                 case 'x':
 
-                    System.out.println("Resultado " + c1.multiplicacion());
+                    System.out.printf("Resultado %.2f\n", c1.multiplicacion());
 
                     break;
 
                 case ':':
 
-                    System.out.println("Resultado " + c1.division());
+                    System.out.printf("Resultado %.2f\n", c1.division());
 
                     break;
 
